@@ -12,7 +12,7 @@ tools:
     mode: remote
     toolsets: [repos]
     allowed-repos:
-      - krisgold-personal/skills-agentic-workflows-that-read-the-room
+      - ${{ github.repository }}
     min-integrity: approved
   web-fetch:
   edit:
